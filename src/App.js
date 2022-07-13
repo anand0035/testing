@@ -16,7 +16,7 @@ function App() {
     setCartIsShown(false);
   };
   const result = ['a', 'b', 'c'].map(el => {
-    el + '100';
+    return el + '100';
   });
 
   return (
