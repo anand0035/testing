@@ -15,6 +15,9 @@ function App() {
   const hideCartHandler = () => {
     setCartIsShown(false);
   };
+  const result = ['a', 'b', 'c'].map(el => {
+    el + '100';
+  });
 
   return (
     <CartProvider>
